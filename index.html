@@ -8,17 +8,14 @@
 }
 :root {
     --bg-color:BURLYWOOD;
-    
-}
-:root {
 	--tex-color:DEEPSKYBLUE;
-	}
+}
 	
 	
 
 .floating-box {
   float: center;
-  border: 5px solid bg-color;  
+  border: 5px solid var(bg-color);  
   text-align:center;
   text-size: 20px;
   margin-right: 20%;
@@ -36,14 +33,14 @@
   margin: none;
   height: 900px;
   width: 18%;
-  border: 5px solid tex-color; 
+  border: 5px solid var(tex-color); 
   text-align:left;
   text-size: 18px;
   color:tex-color;
 }
 	.button {
   width: 100%;
-  background-color: tex-color;
+  background-color: var(tex-color);
   border: none;
   color: black;
   text-align: center;
@@ -51,11 +48,11 @@
   cursor: pointer;
 }
 	.button:hover {
-  background-color: tex-color;
+  background-color: var(tex-color);
 }
 
 </style>
-<body style="background-color:BURLYWOOD; color:ROSYBROWN;font-family: font;" >
+<body style="background-color:var(bg-color); color:var(tex-color);font-family: font;" >
 <div style="font-size:80%;text-align:center;">->optimised for BIG screen view<-</div>
       <!-- Chat script -->
 <div class="chatbox">
